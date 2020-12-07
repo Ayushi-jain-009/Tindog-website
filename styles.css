@@ -1,0 +1,174 @@
+/*common inline elements- span,img,anchors(links)*/
+/*common block elements- <p>,<h1>,<div>,<ol>,<li>,<ul>,<form>*/
+/*****************TAG Selector*******************/
+body {
+  font-family: 'Montserrat, sans-serif';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*****************CLASS Selector*****************/
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigatio Bar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Title */
+.title-box {
+  text-align: left;
+}
+
+.title-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title .container-fluid {
+  padding-top: 3%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 80px;
+  top: 20px;
+}
+
+/* Feature */
+.feature-text {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.press-logo {
+  width: 13rem;
+}
+
+/* Testimonial */
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.img-testimonial {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+.price-heading, .price {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-subheading {
+  font-size: 1.5rem;
+}
+
+.price-button {
+  width: 100%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Cta section */
+.cta-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer-icon {
+  margin: 50px 10px 20px;
+}
+
+/*****************ID Selector********************/
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 0 14% 7%;
+}
+
+#footer {
+  font-weight: 900;
+}
+
+/*****************MEDIA QUERIES********************/
+@media (max-width: 1018px) {
+  body {
+    text-align: center;
+  }
+
+  .title-box {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
